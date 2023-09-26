@@ -1,6 +1,8 @@
 ﻿using System;
+
 // --------------- Задача 1 -------------
 // Проверка на то, является ли число палиндромом 
+
 public class Answer
 {
     static bool IsPalindrome(int number)
@@ -101,23 +103,27 @@ public class Answer2
 
 public class Answer3
 {
-   static void ShowCube(int N)
+    static void ShowCube(int N)
     {
-      for(int i = 1; i <= N; i++)
-      {
-        Console.WriteLine(Math.Pow(i, 3));
-      }
-        
+        for (int i = 1; i <= N; i++)
+        {
+            Console.WriteLine(Math.Pow(i, 3));
+        }
+
     }
 
-  // Не удаляйте и не меняйте метод Main! 
-      static public void Main(string[] args) {
+    // Не удаляйте и не меняйте метод Main! 
+    static public void Main(string[] args)
+    {
         int N;
 
-        if (args.Length >= 1) {
+        if (args.Length >= 1)
+        {
             N = int.Parse(args[0]);
-        } else {
-           // Здесь вы можете поменять значения для отправки кода на Выполнение
+        }
+        else
+        {
+            // Здесь вы можете поменять значения для отправки кода на Выполнение
             N = 6;
         }
 
