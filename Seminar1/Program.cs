@@ -2,8 +2,6 @@
 //--------- Задача 1 ----------
 //Напишите программу, которая на вход принимает 
 //число и выдает его квадрат (число умноженное на само себя).
-using System.Xml.Serialization;
-
 Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 int str = number * number;
